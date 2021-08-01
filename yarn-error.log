@@ -1,0 +1,53 @@
+Arguments: 
+  /Users/mac/.nvm/versions/node/v12.22.1/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js
+
+PATH: 
+  /Users/mac/Library/Android/sdk/platform-tools:/Users/mac/Library/Android/sdk/platform-tools:/Users/mac/Library/Android/sdk/platform-tools:/Users/mac/Library/Android/sdk/platform-tools:/Users/mac/Library/Android/sdk/platform-tools:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/mac/.rvm/gems/ruby-2.6.5/bin:/Users/mac/.rvm/gems/ruby-2.6.5@global/bin:/Users/mac/.rvm/rubies/ruby-2.6.5/bin:/opt/local/bin:/opt/local/sbin:/Users/mac/.nvm/versions/node/v12.22.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/mac/Library/Android/sdk/emulator:/Users/mac/Library/Android/sdk/tools:/Users/mac/Library/Android/sdk/tools/bin:/Users/mac/Library/Android/sdk/platform-tools:/Users/mac/.rvm/bin:/Users/mac/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.22.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/mac/Desktop/blockchain-projects/bestvictor/growth-app/gro-sc/package.json: Unexpected token } in JSON at position 230
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "main": "truffle.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "test": "truffle test"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "3.4.0",
+      "@openzeppelin/contracts-upgradeable": "3.4.0",
+    },
+    "devDependencies": {
+      "@truffle/hdwallet-provider": "^1.4.0",
+      "sol-merger": "^3.1.0",
+      "truffle-plugin-verify": "^0.5.7"
+    },
+    "name": "tokens",
+    "description": "### Architecture",
+    "version": "1.0.0",
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
